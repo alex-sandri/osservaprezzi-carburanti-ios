@@ -1,4 +1,4 @@
-# Osservaprezzi Carburanti (iOS)
+# Osservaprezzi Carburanti
 
 ![Platforms](https://img.shields.io/badge/platforms-iOS-lightgrey)
 ![License](https://img.shields.io/github/license/alex-sandri/inpa-ios)
