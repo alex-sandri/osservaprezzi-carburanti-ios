@@ -11,7 +11,11 @@ import SwiftUI
 struct OsservaprezziCarburantiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
+}
+
+var isPreview: Bool {
+    return ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
 }

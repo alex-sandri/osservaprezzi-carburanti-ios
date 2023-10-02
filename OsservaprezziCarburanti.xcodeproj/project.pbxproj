@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900177C82AC570AD005AC21F /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900177C72AC570AD005AC21F /* Zone.swift */; };
+		900177CA2AC57111005AC21F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900177C92AC57111005AC21F /* Location.swift */; };
+		900177CC2AC571B6005AC21F /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900177CB2AC571B6005AC21F /* Station.swift */; };
+		900177CF2AC572B9005AC21F /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900177CE2AC572B9005AC21F /* JsonParser.swift */; };
+		900177D12AC572D6005AC21F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900177D02AC572D6005AC21F /* Logger.swift */; };
+		900177D42AC573EF005AC21F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900177D32AC573EF005AC21F /* HomeView.swift */; };
+		900177D72AC57718005AC21F /* StationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900177D62AC57718005AC21F /* StationRow.swift */; };
+		900177D92AC57888005AC21F /* Fuel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900177D82AC57888005AC21F /* Fuel.swift */; };
+		90B245412AC8338300093958 /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B245402AC8338300093958 /* StationView.swift */; };
 		90DCBE1D2ABECD8A00B43CAC /* OsservaprezziCarburantiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCBE1C2ABECD8A00B43CAC /* OsservaprezziCarburantiApp.swift */; };
-		90DCBE1F2ABECD8A00B43CAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCBE1E2ABECD8A00B43CAC /* ContentView.swift */; };
 		90DCBE212ABECD8B00B43CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DCBE202ABECD8B00B43CAC /* Assets.xcassets */; };
 		90DCBE242ABECD8B00B43CAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DCBE232ABECD8B00B43CAC /* Preview Assets.xcassets */; };
+		90FF2A0A2AC6C8D1009E8ED9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF2A092AC6C8D1009E8ED9 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		900177C72AC570AD005AC21F /* Zone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		900177C92AC57111005AC21F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		900177CB2AC571B6005AC21F /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		900177CE2AC572B9005AC21F /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		900177D02AC572D6005AC21F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		900177D32AC573EF005AC21F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		900177D62AC57718005AC21F /* StationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRow.swift; sourceTree = "<group>"; };
+		900177D82AC57888005AC21F /* Fuel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fuel.swift; sourceTree = "<group>"; };
+		90B245402AC8338300093958 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		90B9318F2AC5C44A004E5572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		90DCBE192ABECD8A00B43CAC /* OsservaprezziCarburanti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsservaprezziCarburanti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DCBE1C2ABECD8A00B43CAC /* OsservaprezziCarburantiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsservaprezziCarburantiApp.swift; sourceTree = "<group>"; };
-		90DCBE1E2ABECD8A00B43CAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90DCBE202ABECD8B00B43CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90DCBE232ABECD8B00B43CAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90FF2A092AC6C8D1009E8ED9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		900177C62AC5701B005AC21F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				900177C72AC570AD005AC21F /* Zone.swift */,
+				900177C92AC57111005AC21F /* Location.swift */,
+				900177CB2AC571B6005AC21F /* Station.swift */,
+				900177D82AC57888005AC21F /* Fuel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		900177CD2AC572AA005AC21F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				900177CE2AC572B9005AC21F /* JsonParser.swift */,
+				900177D02AC572D6005AC21F /* Logger.swift */,
+				90FF2A092AC6C8D1009E8ED9 /* LocationManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		900177D22AC573D6005AC21F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				900177D32AC573EF005AC21F /* HomeView.swift */,
+				90B245402AC8338300093958 /* StationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		900177D52AC5770B005AC21F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				900177D62AC57718005AC21F /* StationRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		90DCBE102ABECD8A00B43CAC = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +108,12 @@
 		90DCBE1B2ABECD8A00B43CAC /* OsservaprezziCarburanti */ = {
 			isa = PBXGroup;
 			children = (
+				90B9318F2AC5C44A004E5572 /* Info.plist */,
+				900177D52AC5770B005AC21F /* Components */,
+				900177D22AC573D6005AC21F /* Views */,
+				900177CD2AC572AA005AC21F /* Utils */,
+				900177C62AC5701B005AC21F /* Models */,
 				90DCBE1C2ABECD8A00B43CAC /* OsservaprezziCarburantiApp.swift */,
-				90DCBE1E2ABECD8A00B43CAC /* ContentView.swift */,
 				90DCBE202ABECD8B00B43CAC /* Assets.xcassets */,
 				90DCBE222ABECD8B00B43CAC /* Preview Content */,
 			);
@@ -137,8 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DCBE1F2ABECD8A00B43CAC /* ContentView.swift in Sources */,
+				900177CC2AC571B6005AC21F /* Station.swift in Sources */,
+				900177D92AC57888005AC21F /* Fuel.swift in Sources */,
+				90FF2A0A2AC6C8D1009E8ED9 /* LocationManager.swift in Sources */,
+				900177CF2AC572B9005AC21F /* JsonParser.swift in Sources */,
 				90DCBE1D2ABECD8A00B43CAC /* OsservaprezziCarburantiApp.swift in Sources */,
+				90B245412AC8338300093958 /* StationView.swift in Sources */,
+				900177D12AC572D6005AC21F /* Logger.swift in Sources */,
+				900177D42AC573EF005AC21F /* HomeView.swift in Sources */,
+				900177D72AC57718005AC21F /* StationRow.swift in Sources */,
+				900177CA2AC57111005AC21F /* Location.swift in Sources */,
+				900177C82AC570AD005AC21F /* Zone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +344,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OsservaprezziCarburanti/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OsservaprezziCarburanti/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'accesso alla posizione è necessario per mostrarti le stazioni nelle tue vicinanze.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +374,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OsservaprezziCarburanti/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OsservaprezziCarburanti/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'accesso alla posizione è necessario per mostrarti le stazioni nelle tue vicinanze.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
